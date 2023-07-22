@@ -1,0 +1,202 @@
+body{
+    margin: 0%;
+}
+
+.container{
+            
+    background: rgb(215, 253, 215);
+    display: flex;
+    
+}
+.navrow {
+    background-color: rgb(235, 231, 231);
+    width: 6%;
+    height: 100vh;
+    display: table;
+
+    padding: 20px;
+}
+.bodyrow {
+    background-color: rgb(182, 181, 180);
+    width: 94%;
+    height: 100vh;
+    margin-top: 0%;
+    padding: 0px;
+}
+.logo img{
+    height: 70px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 15%;
+    border-radius: 100%;
+    border: 1px solid;
+    
+    object-fit: cover;
+    display: table-row;
+}
+.navoption img{
+    height: 30px;
+    
+    padding-bottom: 30px;
+    
+    
+}
+.bodytitle{
+    background-color: rgb(235, 231, 231);
+    height: 50px;
+    padding-top: 10px;
+    display: flex;
+
+    
+}
+.bodytitle h1{
+    padding: 0px;
+    margin-left: 5px;
+    margin-top: 0px;
+    font-family: calibri;
+    object-fit: cover;
+}
+.bodytitle img{
+    position: relative;
+    margin-left: auto;
+    height: 30px;
+    margin-top: 5px;
+    float: right;
+}
+.userdisplay{
+    display: flex;
+}
+.userdata{
+    width: 25%;
+    border-radius: 10%;
+    margin:10px;
+    background-color: rgb(235, 231, 231);
+}
+.userphoto{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 2px;
+    padding: 0px;
+    background-color: rgb(207, 64, 207);
+}
+.userphoto h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(235, 231, 231);
+    padding: 0%;
+    margin: 0%;
+}
+.userdata h6{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 0%;
+    margin: 0%;
+    font-size: 20px;
+}
+.userdata p{
+    text-align: center;
+    color: rgb(80, 80, 80);
+    padding: 0%;
+    margin: 0%;
+    font-size: 15px;
+}
+.usermy{
+    display: flex;
+}
+.monthbox{
+    height: 20px;
+    width:40px;
+    margin-left: 30%;
+    padding-top: 5px ;
+    border-radius: 4px;
+    background-color: rgb(199, 195, 195);
+}
+.yearbox{
+    height: 20px;
+    width:40px;
+    margin-left: 10%;
+    margin-right: 30%;
+    padding-top: 5px ;
+    border-radius: 4px;
+    background-color: rgb(199, 195, 195);
+}
+.month{
+    height: 20px;
+    width:40px;
+    margin-left: 30%;
+    padding-top: 5px ;
+    font-size: 10px;
+}
+.year{
+    height: 20px;
+    width:40px;
+    margin-left: 10%;
+    margin-right: 30%;
+    padding-top: 5px ;
+    font-size: 10px;
+}
+.profilebutton{
+    width:90%;
+    border:2px solid rgb(180, 57, 133); 
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 7px;
+}
+.profilebutton p{
+    color: black;
+}
+
+table{
+    width: 100%; 
+    border-radius: 10px;
+}
+.tablehead{
+    background-color: rgb(180, 57, 133);
+}
+
+.viewbutton{
+    height: 22px;
+    width:90%;
+    border:2px solid rgb(180, 57, 133); 
+    margin-top: 0px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+th{
+    color:white;
+}
+td{
+    height: 60px;
+}
+
+/* profile hover */
+
+.userdata:hover {
+    width: 30%;
+    
+}
+.profilebutton:hover {
+
+    background-color: rgb(180, 57, 133);
+    
+
+}
+.profilebutton p:hover{
+    color: white;
+}
+
+.viewbutton:hover {
+
+    background-color: rgb(180, 57, 133);
+    color: white;
+    
+
+}
+
+tr.tablecontent:hover{
+    background-color: white;
+    color: rgb(255, 0, 149);
+}
